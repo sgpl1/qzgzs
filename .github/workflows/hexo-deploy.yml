@@ -40,7 +40,7 @@ jobs:
           cache-dependency-path: ./package-lock.json
       - name: 安装必要依赖项
         if: steps.node.outputs.cache-hit != 'true'
-        run: npm run install
+        run: npm install
       - name: 执行编译构建
         run: npx hexo generate
       - name: 设置 GitHub Pages

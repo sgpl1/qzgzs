@@ -33,13 +33,13 @@ jobs:
           submodules: true
       - uses: actions/setup-node@v4
         name: 配置 Nodejs 环境
-        id: node
         with:
           node-version: latest
           cache: npm
           cache-dependency-path: ./package-lock.json
+      # 上面这个 step 并不会缓存 node_modules 目录
+      # 所以下面的这个 step 是必要的
       - name: 安装必要依赖项
-        if: steps.node.outputs.cache-hit != 'true'
         run: npm install
       - name: 执行编译构建
         run: npx hexo generate

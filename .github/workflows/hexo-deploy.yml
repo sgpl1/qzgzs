@@ -2,7 +2,8 @@ name: Hexo 站点发布
 
 on:
   push: 
-    branches: [$default-branch]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:

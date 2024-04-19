@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 纱雾の闺房
-subtitle: 可爱滴捏❤
-description: 我才不认识叫这个名字的人～
+title: 且醉于门前工作室
+subtitle: 网易高质量工作室
+description: 建筑:且醉 指令:時光飄澪
 keywords:
-author: 和泉纱雾
+author: 時光飄澪
 language: zh-CN
-timezone: Asia/Shanghai
+timezone: Asia/Liaoning
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://dragon1573.github.io/hexo-blog
+url: https://sgpl.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
